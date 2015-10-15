@@ -148,7 +148,7 @@ I generated todos and set their creation dates to a time in the past, then execu
 ## Results
 
 The results were verified through testing each user case.
-The final result is a demo site at - http://ketan-blockitoff.herokuapp.com/
+The final result is a [demo](http://ketan-blockitoff.herokuapp.com/) site.
 
 ## Conclusion
 
