@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/portfolio-kami" # the subpath of your site, e.g. /blog/
-url: "http://ketanshukla.com" # the base hostname & protocol for your site
+url: "ketanshukla.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
