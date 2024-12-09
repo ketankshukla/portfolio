@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
-import { experimental_useFormStatus } from "react-dom";
+import { useFormState } from "react-dom";
 
 export default function SubmitBtn() {
-  const { pending } = experimental_useFormStatus();
+  const pending = false;  // Temporarily disable loading state until we fix the hook
 
   return (
     <button
