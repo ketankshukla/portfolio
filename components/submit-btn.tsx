@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
-import { useFormStatus } from "next/dist/client/components/form";
+import { experimental_useFormStatus } from "react-dom";
 
 export default function SubmitBtn() {
-  const { pending } = useFormStatus();
+  const { pending } = experimental_useFormStatus();
 
   return (
     <button
